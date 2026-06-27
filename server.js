@@ -7,7 +7,7 @@ configDotenv()
 
 app.get('/',(req,res)=>{
 
-    res.send("<h1>Welcome to Express Server</h1> <h2>Server is running on port 3000.</h2>")
+    res.send("<h1>Welcome to Express Server</h1> <h2>Server is running on port 3000...... </h2> <p> This is demo of cicd , using docker hub</p>")
 })
 
 
